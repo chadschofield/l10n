@@ -1,0 +1,28 @@
+<?php
+$lang['msg_select_file'] = "Select a file to upload.";
+$lang['download_temp'] = "Download Template";
+$lang['import_msg1'] = "Import shipments by uploading a supported file type from the list below. All properties must be present even if they're optional.";
+$lang['import_msg2'] = "The file can't be opened.";
+$lang['import_msg3'] = "The uploaded file does not match the template. The following columns are missing:";
+$lang['import_msg4'] = "Only the following types of files are supported: %s.";
+$lang['import_msg6'] = "The value of contents cannot exceed $800 per shipment.";
+$lang['import_msg7'] = "Address could not be verified.";
+$lang['valid_error'] = "Validation Error";
+$lang['Property'] = "Property";
+$lang['Example'] = "Example";
+$lang['im_units'] = "Metric or Imperial. Default: Metric";
+$lang['im_weight'] = "In KG or OZ depending on Units";
+$lang['im_dims'] = "In CM or IN depending on Units";
+$lang['im_service'] = 'Can be "BoxC", "BoxC Plus", or "BoxC Priority". Default: BoxC';
+$lang['im_method'] = 'The shipping method code for the service. Leave blank to use the standard shipping method. Only select entry points support more than one shipping method. Use the estimator to retrieve the code. Default: Standard';
+$lang['im_phone'] = "Optional, but recommended";
+$lang['im_street1'] = "Street Address Line 1";
+$lang['im_street2'] = "Street Address Line 2 for condos, apartments, units, etc.";
+$lang['im_province'] = "State, Province, or Territory";
+$lang['im_contents'] = "Detailed contents of the shipment";
+$lang['im_quantity'] = "Default: 1";
+$lang['im_value'] = "Value of the contents in USD";
+$lang['im_reserved'] = "Reserved for future use so leave it blank";
+$lang['im_dg_code'] = "The dangerous goods code only if the shipment contains any. Refer to <a href='%s'>this page</a> for a list.";
+$lang['im_coo'] = "Country of manufacture. Default: CN";
+$lang['im_override'] = "Default: 0 or False";

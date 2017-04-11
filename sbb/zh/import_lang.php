@@ -1,0 +1,28 @@
+<?php
+$lang['msg_select_file'] = "选择一个需要上传的文件.";
+$lang['download_temp'] = "下载范本";
+$lang['import_msg1'] = "通过上载下列支持的文件类型导入运载的货物资料。所有内容都必须显现即使他们是可选填的。";
+$lang['import_msg2'] = "文件无法打开";
+$lang['import_msg3'] = "上传的不是一个有效的文件. 没有找到下列的字段:";
+$lang['import_msg4'] = "只有支持下面的这些文件类型: %s.";
+$lang['import_msg6'] = "单票发货价格总金额不可以超过%s美金";
+$lang['import_msg7'] = "地址无法被验证";
+$lang['valid_error'] = "验证错误";
+$lang['Property'] = "属性";
+$lang['Example'] = "样例";
+$lang['im_units'] = "公制或者英制，默认为公制";
+$lang['im_weight'] = " KG 或者 OZ 取决于单位";
+$lang['im_dims'] = " CM 或者 IN 取决于单位";
+$lang['im_service'] = '可以是"BoxC"或者"BoxC Plus"或者"BoxC Priority". 默认为: BoxC';
+$lang['im_method'] = '此服务的出货方式代码。空白即默认使用标准出货方式。 只有选择切入点才可以支持多种运输方式。请使用预估程序检索代码！';
+$lang['im_phone'] = "可选的，但是推荐使用";
+$lang['im_street1'] = "街道地址，行 1";
+$lang['im_street2'] = "街道地址，行2 为了公寓，联排别墅等";
+$lang['im_province'] = "州";
+$lang['im_contents'] = "货物内容";
+$lang['im_quantity'] = "默认:1";
+$lang['im_value'] = "货物货值,美金";
+$lang['im_reserved'] = "保留为了今后使用，留空";
+$lang['im_dg_code'] = "危险物代码只有在货件中有含有任何的危险物品时需要。参阅<a href='%s'>这里</a>清单。";
+$lang['im_coo'] = "制造商国家。默认为中国";
+$lang['im_override'] = "默认:0或者错误";
