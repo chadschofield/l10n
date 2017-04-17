@@ -1,13 +1,4 @@
 <?php
-/**
- * System messages translation for CodeIgniter(tm)
- *
- * @author  CodeIgniter community
- * @copyright   Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
- * @license http://opensource.org/licenses/MIT  MIT License
- * @link    http://codeigniter.com
- */
-defined('BASEPATH') OR exit('No direct script access allowed');
 $lang['form_validation_required'] = '要求含有 {field} 字段。';
 $lang['form_validation_isset'] = '{field} 字段必须有值。';
 $lang['form_validation_valid_email'] = '{field} 字段必须是一个有效的 E-mail 地址。';
