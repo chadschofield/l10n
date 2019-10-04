@@ -1,4 +1,4 @@
-<?phpvgv
+<?php
 $lang['payment'] = "Совершить платеж";
 $lang['refresh'] = "Обновить";
 $lang['Switch'] = "Сменить аккаунт";
@@ -28,7 +28,7 @@ $lang['Partners'] = "Партнеры";
 $lang['Ship'] = "Отправка";
 $lang['Billing'] = "Счета";   
 $lang['Operations'] = "Операции";
-$lang['Payment'] = "Оплпта";     ----"Оплата";
+$lang['Payment'] = "Оплпта";
 $lang['History'] = "История";
 $lang['Invoices'] = "Инвойсы";
 $lang['Balance'] = "Баланс";
